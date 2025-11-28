@@ -2,6 +2,6 @@ namePrefix: kustomize-dev-
 
 resources:
 - ../../base/guestbook-ui-deployment.yaml
-- guestbook-ui-svc.yaml
+- ../../base/guestbook-ui-svc.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
